@@ -1,15 +1,25 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
 }
 
 img {
+  display: block;
   width: 100px;
   height: 100px;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  text-wrap: wrap;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +33,15 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plants-info {
+  max-width: 200px;
+  height: auto;
 }
